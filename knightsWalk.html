@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="anime-master/lib/anime.min.js"></script>
+<head>
+	<title>
+		knightsWalk
+	</title>
+	<style type="text/css">
+
+		body{
+			background-color: lightgreen;
+		}
+		
+		table{
+			max-width: 100%;
+			max-height: 100%;
+			border:1px solid white;
+			text-align: center;
+			box-shadow: 2px 2px 3px #000;
+			margin-bottom: 20px;
+
+		}
+
+		td{
+			border:1px solid white;
+			width: 50px;
+			height: 50px;
+			background-color: white;
+			border: 1px solid lightgreen;
+
+		}
+
+		h1{
+			color: white;
+			font-size: 4em;
+			font-family: fantasy;
+			text-shadow: 2px 2px 3px #000;
+			margin-top: 60px;
+			margin-bottom: 40px;
+		}
+
+		h3{
+			font-family: fantasy;
+			font-style: italic;
+		}
+
+		input{
+			max-width: 100px;
+			background-color: #3A4;
+			color: white;
+			box-shadow: 2px 2px 3px #999;
+			border-color: white;
+		}
+
+		input:hover{
+			color: white;
+			background-color: green;
+		}
+
+		button{
+			color: white;
+			box-shadow: 2px 2px 3px #999;
+			border-color: white;
+
+		}
+
+		h5{
+			margin-top: 10px;
+			color: white;
+			text-shadow: 1px 1px 1px #111;
+		}
+
+		.btn{
+			color: black;
+			background-color: white;
+		}
+
+		.btn:hover{
+			background-color: green;
+			color: white;
+		}
+
+		.form-control{
+			width: 50%;
+			display: inline-block;
+		}
+
+	</style>
+</head>
+<body>
+	<center>
+
+		<h1>KNIGHTS WALK</h1>
+
+		<span>
+		<button type="button" class="btn" id="<"><</button>
+		<button type="button" class="btn" id=">">></button>
+		<input class="form-control" type="int" placeholder="enter n" id="n">
+		<button type="button" class="btn" id="get n">OK</button>
+		</span>
+
+		<h5 id="warning">NOTE: N>6 COULD BE VERY SLOW TO COMPUTE</h5>
+
+		<h3 id="output"></h3>
+
+		<table id="board">
+			<tr>
+				<td></td>
+			</tr>
+		</table>
+
+		<BUTTON type="button" class="btn" id="start">START</BUTTON>
+
+		<BUTTON type="button" class="btn" id="clr">CLR</BUTTON>
+		
+	</center>
+</body>
+<script type="text/javascript" src="knightsWalk.js"></script>
+</html>
